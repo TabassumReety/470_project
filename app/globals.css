@@ -1,0 +1,31 @@
+@import "tailwindcss";
+:root {
+  --background-light: #7cac7cb7;
+  --foreground-light: #171717;
+  --background-dark: #0a0a0a;
+  --foreground-dark: #ededed;
+}
+
+/* Light Mode */
+:root {
+  --background-light: #95c061b7; /* Updated light mode background color */
+  --foreground-light: #131313;
+}
+
+/* Dark Mode */
+.dark {
+  --background-light: #0c160cd5;
+  --foreground-light: #ededed;
+}
+
+body {
+  background-color: var(--background-light);
+  color: var(--foreground-light);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode styles on body */
+.dark body {
+  background-color: var(--background-light);
+  color: var(--foreground-light);
+}

@@ -40,10 +40,13 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+
+# Ignore everything by default
+
 # Ignore everything by default
 /*
 
-# But NOT these files/folders (un-ignore for Part 1)
+# But NOT these files/folders (un-ignore for Part 2)
 !package.json
 !tsconfig.json
 !next.config.js
@@ -54,6 +57,14 @@ next-env.d.ts
 !middleware.ts
 !public/
 !pages/
+!app/
+
+# Part 2: Only allow app/ and its contents (main app logic)
+!app/
+!app/**
+
+# Keep .gitignore itself
+!.gitignore
 
 # Allow .gitignore itself
 !.gitignore
