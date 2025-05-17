@@ -44,37 +44,7 @@ next-env.d.ts
 # Ignore everything by default
 
 
-# Ignore everything by default
-/*
 
-# But NOT these files/folders (un-ignore for Part 3)
-!package.json
-!tsconfig.json
-!next.config.js
-!next.config.ts
-!postcss.config.mjs
-!README.md
-!next-env.d.ts
-!middleware.ts
-!public/
-!pages/
-!app/
-!components/
-!components/**
-!context/
-!context/**
-!lib/
-!lib/**
-!models/
-!models/**
-
-# Keep .gitignore itself
-!.gitignore
-
-# Allow .gitignore itself
-!.gitignore
-
-# Ignore node_modules and build output always
 node_modules/
 .next/
 out/
