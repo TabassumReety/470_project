@@ -43,10 +43,11 @@ next-env.d.ts
 
 # Ignore everything by default
 
+
 # Ignore everything by default
 /*
 
-# But NOT these files/folders (un-ignore for Part 2)
+# But NOT these files/folders (un-ignore for Part 3)
 !package.json
 !tsconfig.json
 !next.config.js
@@ -58,10 +59,14 @@ next-env.d.ts
 !public/
 !pages/
 !app/
-
-# Part 2: Only allow app/ and its contents (main app logic)
-!app/
-!app/**
+!components/
+!components/**
+!context/
+!context/**
+!lib/
+!lib/**
+!models/
+!models/**
 
 # Keep .gitignore itself
 !.gitignore
